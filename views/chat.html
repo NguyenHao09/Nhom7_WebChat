@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../public/css/style.css">
+</head>
+
+<body class="snow-bg">
+    <div class="container-fluid">
+        <!-- Header -->
+        <div class="row bg-white border">
+            <div class="col-2">
+                <a href="home.html" style="text-decoration: none;">
+                    <img src="../public/assets/images/squib3.png" alt="" style="width: 75px; height:70px; float: left;">
+                </a>
+            </div>
+            <div class="col-8">
+            </div>
+            <div class="col-2">
+                <div class="row mt-3">
+                    <div class="dropdown" style="cursor: pointer;">
+                        <div class="dropdown-toggle" data-toggle="dropdown"><img src="../public/assets/images/account.png" alt=""
+                                style="width:40px;"></div>
+                        <div class="dropdown-menu mr-5">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="../views/signin_up.html">Đăng xuất</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Center -->
+        <div class="row" id="trungtam">
+            <!-- Main menu -->
+            <div class="col-1" style="background-color: #199054;">
+                <div class="row mt-3">
+                    <ul class="nav nav-pills flex-column ">
+                        <li class="nav-item pill-1 mb-3">
+                            <a class="nav-link active" data-toggle="tab" href="#home">
+                                <img src="../public/assets/images/message.png" alt="" style=" width: 40px;">
+                            </a>
+                        </li>
+                        <li class="nav-item pill-2 mb-3">
+                            <a class="nav-link " data-toggle="tab" href="#menu2">
+                                <img src="../public/assets/images/account.png" alt="" style="width: 40px; ">
+                            </a>
+                        </li>
+                        <li class="nav-item pill-3 mb-3">
+                            <a class="nav-link " data-toggle="tab" href="#menu3">
+                                <img src="../public/assets/images/account.png" alt="" style=" width: 40px;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <!-- Content main Menu -->
+            <div class="col-3 border bg-white">
+                <div class="col-12">
+                    <div class="col-10">
+                        <div class="input-group m-3">
+                            <input type="text" class="form-control shadow-none" placeholder="Tìm kiếm"
+                                style="border-radius: 50px; "></input>
+                            <div class="input-group-append ml-1" id="btsearch">
+                                <button type="button" class="btn shadow-none"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="container tab-content">
+                            <!-- Tin nhắn -->
+                            <div id="home" class="tab-pane active">
+                                <div class="bg-gray px-4 py-2 bg-light">
+                                    <p class="h5 mb-0 py-1">Danh sách tin nhắn hiện tại</p>
+                                </div>
+                                <div class="messages-box">
+                                    <div class="list-group">
+                                        <!-- Chuẩn mực -->
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#"
+                                            class="list-group-item list-group-item-action list-group-item-light ">
+                                            <div class="media"><img src="../public/assets/images/z1000.jpg" alt="user" width="50"
+                                                    height="50" class="rounded-circle">
+                                                <div class="media-body ml-4">
+                                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                                        <h6 class="mb-0">Nguyễn Trần Thái Thiện Minh Hàn Lũy Cây Đa Bên
+                                                            Bờ
+                                                            Hồ </h6>
+                                                        <small class="small font-weight-bold">14 Dec</small>
+                                                    </div>
+                                                    <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetur. incididunt ut labore.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Menu1 *CHƯA PHÁT TRIỂN-->
+                            <div id="menu2" class="tab-pane fade"><br>
+                                <h3>Menu 2</h3>
+                                <p>Chưa phát triển</p>
+                            </div>
+                            <!-- menu2 CHƯA PHÁT TRIỂN-->
+                            <div id="menu3" class="tab-pane fade"><br>
+                                <h3>Menu 3</h3>
+                                <p>Chưa phát triển</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- User Sended -->
+            <div class="col-8 border mb-5 ">
+                <!-- Header -->
+                <div class="row">
+                    <div class="col-9 px-4 py-2 bg-light">
+                        <div class="media">
+                            <img src="../public/assets/images/z1000.jpg" alt="user" width="60" height="60" class="rounded-circle">
+                            <div class="media-body ml-4">
+                                <div class="mt-1">
+                                    <h6 class="mb-0"> Jason Doe </h6>
+                                    <p class="font-italic text-small">Online</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 bg-light">
+
+                    </div>
+                </div>
+                <!-- Chat -->
+                <div class="chat-box">
+                </div>
+
+                <!-- Typing area -->
+                <div class="col-12  position-fixed bg-white" style="bottom: 0; width: 65%; margin-bottom: 50px;">
+                    <div class="row">
+                        <div class="col-10 ">
+                            <div class="input-group">
+                                <input type="text" class="form-control shadow-none" placeholder="Type a message"
+                                    style="border-radius: 50px; height: 50px;"></input>
+                                <div class="input-group-append">
+                                    <button type="button" class="btn shadow-none"><img id="btsend" src="../public/assets/images/send.png"
+                                            alt="" style="width: 40px;"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row fixed-bottom border" id="footer">
+            <div class="text-center">
+                ©2021 Đồ án web chat: <b>Nhóm </b>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
